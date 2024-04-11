@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+#quote-box {
+    border-radius: 3px;
+    position: relative;
+    width: 450px;
+    padding: 40px 50px;
+    background-color: #fff;
+    box-shadow: 60px -17px 37px -6px rgba(150, 150, 150, 0.24), 0px 15px 25px -4px rgba(150, 150, 150, 0.24);
+    min-height: 200px;
+    
+
+}
+
+#quote-box .quote-text {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.75em;
+    margin-bottom: 20px;
+    color: black;
+}
+
+#quote-box .quote-author {
+    text-align: right;
+    font-size: 1em;
+    color: black;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px; /* Adjust the width as needed */
+    height: 40px;
+    background-color: #333;
+    color: #fff; /* Ensure the text color is set for visibility */
+    border-radius: 3px;
+    font-size: 0.85em;
+    padding: 8px 18px; /* Adjust padding as needed */
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
